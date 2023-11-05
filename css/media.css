@@ -74,21 +74,39 @@
 	}
 }
 @media screen and (min-width: 700px){
+	.awas{
+		display: block;
+	}
+	.perfil{
+		width: 25rem;
+		height: 30rem;
+		top: calc(50% - 15rem);
+		left: calc(50% - 12.5rem);
+	}
+	.circuloTrasparente{
+		width: 15rem;
+		height: 15rem;
+		margin-top: 4rem;
+	}
+	.circulo{
+		width: 11.5rem;
+		height: 11.5rem;
+		margin-top: 4rem;
+	}
+	.imagen{
+		width: 10rem;
+		height: 10rem;
+		margin-top: 4rem;
+	}
+	.nombre{
+		margin-top: 3rem;
+	}
+	
 	.nav{
 		justify-content: space-between;
 	}
-	.nav .img{
-		/*display: inline-block;
-		width: 1.2rem;
-		height: 1.2rem;
-		position: relative;
-		transform: translateY(.3rem);
-		margin-right: .4rem;*/
-	}
+	
 	.awas{
-		/*display: inline-block;*/
-		/*font-size: .6rem;
-		margin-top: .2rem;*/
 		margin-left: 10%;
 	}
 	.nav .ul{
@@ -97,7 +115,7 @@
 		margin-right: 10%;
 	}
 	.nav a{
-		font-size: .8rem;
+		font-size: .9rem;
 		padding: 0 1rem;
 	}
 	/*PORTAFOLIO*/

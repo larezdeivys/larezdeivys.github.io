@@ -71,17 +71,18 @@ html{
 /*NAV*/
 .navbar{
 	width: 100%;
-	height: 2rem;
+	height: 4rem;
 	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
 	z-index: 1000;
 }
 .nav{
-	height: 2rem;
+	/* height: 4rem; */
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	z-index: 110;
+	padding-top: 1rem;
 }
 .nav .img{
 	width: 1.2rem;
@@ -90,11 +91,11 @@ html{
 	transform: translateY(.3rem);
 	margin-right: .4rem;
 }
-.nav .img:hover{
+/* .nav .img:hover{
 	/*transform: translateY(.3rem) scale(1.1);*/
-}
 .awas{
 	font-size: .6rem;
+	display: none
 }
 .awas:hover{
 	transform: scale(1.1);
@@ -105,7 +106,7 @@ html{
 .nav .ul{
 	display: flex;
 	list-style: none;
-	margin-top: .3rem;
+	/* margin-top: 2rem; */
 }
 .nav a{
 	font-size: .8rem;
@@ -211,13 +212,14 @@ html{
 }
 /*CUADRO DE PERFIL*/
 .perfil{
-	width: 20rem;
+	width: 18rem;
 	height: 25rem;
 	z-index: 100;
-	background-color: rgba(51, 51, 51, .7);
+	/* background-color: rgba(51, 51, 51, .7); */
+	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	top: calc(50% - 12.5rem);
-	left: calc(50% - 10rem);
+	left: calc(50% - 9rem);
 }
 .cuadro{
 	width: 15rem;
@@ -248,9 +250,13 @@ html{
 	z-index: 40;
 }
 .imgPerfil{
-	/*transform: translateX(-7px);*/
+	/* transform: translateX(-px); */
 	transform: translateY(2.9px);
 	z-index: 40;
+	-webkit-transform: translateX(-px);
+	-moz-transform: translateX(-px);
+	-ms-transform: translateX(-px);
+	-o-transform: translateX(-px);
 }
 .imagen{
 	width: 8.5rem;
@@ -612,7 +618,8 @@ footer p{
 	color: var(--secundary-light);
 	text-align: center;
 	font-size: .8rem;
-	letter-spacing: 1rem;
+	letter-spacing: .5rem;
+	padding-bottom: 2rem;
 }
 /*SECCION DEL FORMULARIO PARA EL CORREO*/
 .contacto{

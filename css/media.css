@@ -18,33 +18,6 @@
 		padding-top: 1.5rem;
 		width: 2.5rem;
 	}
-	.form{
-		width: 14rem;
-	}
-	.form input{
-		width: 14rem;
-		padding-left: 1rem;
-	}
-	.form textarea{
-		width: 14rem;
-	}
-	.form .btn{
-		width: 14rem;
-	}
-}
-@media screen and (min-width: 600px){
-	.form{
-		width: 15rem;
-	}
-	.form input{
-		width: 15rem;
-	}
-	.form textarea{
-		width: 15rem;
-	}
-	.form .btn{
-		width: 15rem;
-	}
 }
 @media screen and (min-width: 600px){
 	.h1_info{

@@ -5,8 +5,9 @@ const tec2 = ['html5','css']
 const tec3 = ['html5','css','javascript2','jquery1']
 const tec4 = ['html5','css','javascript2','jquery1', 'bootstrap']
 const tec5 = ['wordpress1']
-const img = [tec3,tec,tec,tec,tec4,tec,tec,tec,tec,tec,tec,tec,tec2,tec2,tec2,tec3,tec,tec5,tec5]
-const h4 = ['Portafolio','Super Empresa', 'Distribuidora de Alimentos', 'Restaurante Italiano', 'Start Agency', 'Calculadora app', 'Empresas Win', 'Lugares de Venezuela', 'Formulario, Inscribir Curso', 'Empresa de Refrigeración', 'ColrClin app', 'ChickenFun', 'Formulario Animado', 'Games.com', 'Decayed', 'Technology', 'Carrito de Compras', 'Cemam', 'Atlas'];
+const tec6 = ['wix'];
+const img = [tec3,tec,tec,tec,tec4,tec,tec,tec,tec,tec,tec,tec,tec2,tec2,tec2,tec3,tec,tec6,tec5,tec5]
+const h4 = ['Portafolio','Super Empresa', 'Distribuidora de Alimentos', 'Restaurante Italiano', 'Start Agency', 'Calculadora app', 'Empresas Win', 'Lugares de Venezuela', 'Formulario, Inscribir Curso', 'Empresa de Refrigeración', 'ColrClin app', 'ChickenFun', 'Formulario Animado', 'Games.com', 'Decayed', 'Technology', 'Carrito de Compras', 'CX Capacidad de nutrición', 'Cemam Clínica Aeronaútica', 'Atlas Consulting'];
 
 let pos = 0
 

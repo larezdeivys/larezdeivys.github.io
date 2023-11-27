@@ -335,7 +335,6 @@ html{
 }
 /*PORTAFOLIO*/
 .Portafolio{
-	/*margin-top: 1rem;*/
 	z-index: 50;
 	width: 100%;
 	background-color: var(--dark1);
@@ -423,7 +422,7 @@ html{
 }
 .close-tecno{
 	position: absolute;
-	top: 3rem;
+	top: 5rem;
 	right: 3rem;
 	width: 3rem;
 	height: 3rem;
@@ -482,6 +481,7 @@ html{
 	text-align: center;
 	opacity: 0;
 	animation: alter 1s forwards;
+	-webkit-animation: alter 1s forwards;
 }
 .sliderproyec span{
 	color: var(--primary);
@@ -523,6 +523,8 @@ html{
 	opacity: 0;
 	animation: magen 1s forwards;
 }
+
+
 
 /*SECCION DE HABILIDADES*/
 .habilidades{

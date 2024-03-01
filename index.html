@@ -1,239 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>PortafolioDL</title>
-	<link rel="stylesheet" href="css/animate.css">
-	
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/media.css">
-	<link rel="icon" href="img/js.png">
+    <title>Portafolio Deivys Larez</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medias.css">
+    <link rel="icon" href="img/js.png">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="preloader">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">DEIVYS LAREZ. <span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi">Sobre mí</a>
+            <a href="#habilidades">Habilidades y Herramientas</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#educacion">Educación y experiencia</a> 
+            
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- Seccion del home -->
+    <section class="home show-animate" id="home">
+
+        <div class="home-content">
+            <h1>¡HOLA! <br><span>SOY DEIVYS LAREZ</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Front-end Developer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>Soy un apasionado desarrollador frontend que transforma ideas en experiencias 
+            digitales cautivadoras. Con mi dedicación y creatividad, me comprometo a 
+            dar vida a tus proyectos con un toque único y profesional. Confía en mi habilidad
+            para fusionar diseño y funcionalidad, creando sitios web y aplicaciones que no solo 
+            impresionan, sino que también generan impacto. Déjame ser tu aliado en el mundo digital, 
+            donde cada línea de código cuenta una historia de innovación y excelencia. Juntos, podemos 
+            construir un futuro digital brillante. ¡Déjame hacer realidad tu visión!</p>
+            <span class="animate" style="--i:4;"></span>
+            <div class="btn-box">
+                <a href="https://wa.me/+584129828013?text=" target="_blank" class="btn">Contrátame<i class='bx bxl-whatsapp'></i></a>
+                <a href="https://t.me/DeivysLarez" target="_blank" class="btn">Hablemos<i class='bx bxl-telegram'></i></a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
         </div>
-    </div>
-	<!-- SECCION HEADER -->
-<header id="inicio">
-	<!-- NAV -->
-	<div class="navbar">
-		<nav class="nav">
-			<a href="https://wa.me/+584129828013?text=Hola%20Deivys%20buen%20día,%20¿podemos%20hablar?" class="awas" target="_black"><img src="img/dlf-whatsapp.png" alt="" class="img"><span class="con">Contáctame<!--Contact me--></span></a>
-			<ul class="ul">
-			<li><a href="#inicio">Inicio<!--Beginning--></a></li>
-			<li><a href="#Portafolio">Portafolio</a></li>
-			<li><a href="#habilidades">Habilidades<!--Skills--></a></li>
-			<li><a href="#sobreMi">Sobre Mí<!--About me--></a></li>
-		    </ul>
-		</nav>
-	</div>
-	<!-- SLIDER -->
-	<div class="content">
-		<ul class="slider">
-			<li class="img1"></li>
-			<li class="img2"></li>
-			<li class="img3"></li>
-			<li class="img4"></li>
-		</ul>
-	</div> 
-	<!-- PERFIL -->
-	<div class="perfil">
-		<div class="cuadro">
-			<div class="circuloTrasparente"></div>
-			<div class="circulo"></div>
-			<div class="imgPerfil"><img src="img/dei41.jpg" class="imagen"></div>
-		</div>
-		<div class="nombre">DEIVYS LAREZ</div>
-		<div class="nivel">Frontend Developer</div>
-		<div class="iconos">
-			<a href="https://github.com/larezdeivys" title="Github" target="_black"><img src="img/g4.png" class="imgico"></a>
-			<a href="https://www.linkedin.com/in/deivys-larez-20dei/" title="Linkedin" target="_black"><img src="img/LINKEN.png" class="imgico"></a>
-			<a href="https://wa.me/+584129828013?text=Hola%20Deivys%20buen%20día,%20¿podemos%20hablar?" title="Whatsapp" target="_blank"><img src="img/dlf-whatsapp.png" class="imgico"></a>
-			<!-- forma -->
-		</div>
-		<div class="text"><a href="#sobreMi"><span lang="en">About me | </span>Sobre Mí</a></div>
-	</div>
-</header>
-	<!-- SECCION DEL PORTAFOLIO -->
-<section class="Portafolio" id="Portafolio">
-	<div class="portafolioSeccion">
-		<h2 class="wowload"><span lang="en">Briefcase | </span>Portafolio</h2>
-		<div class="portafolioGrip">
-			<a href="#" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/portafol.png"></div></a>
+        
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100012758085738" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/deivys-larez-20dei/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/larezdeivys" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://t.me/DeivysLarez" target="_blank"><i class='bx bxl-telegram'></i></a>
+            <a href="https://wa.me/+584129828013?text=" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
 
-			<a href="https://larezdeivys.github.io/Pagina-Empresarial-uno/" class="wowload" target="_blank"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_TheBestCompany_index.png"></div></a>
-			
-			<a href="https://larezdeivys.github.io/Distribuidora-De-Alimentos/" class="wowload" target="_blank"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_Pantalla_DistribuidorDisa_HTML_index.html.png"></div></a>
-			
-			<a href="https://larezdeivys.github.io/Restaurante-Italiano/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_Pantalla_restaurante_html_index.html.png"></div></a>
+    </section>
+    
+    <!-- Seccion Sobre mi -->
+    <section class="sobreMi show-animate" id="sobreMi">
+        <h2 class="heading">Sobre <span>Mí</span></h2>
 
-			<a href="https://larezdeivys.github.io/agency/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_Agency.png"></div></a>
-			
-			<a href="https://larezdeivys.github.io/Calculadora-basica/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginaWeb_calculadora_index.png"></div></a>
-			
-			<a href="https://larezdeivys.github.io/Pagina-Empresarial-dos/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_Empresa_index.png"></div></a>
+        <div class="about-img">
+            <img src="./img/yoo.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
 
-			<a href="https://larezdeivys.github.io/Lugares-de-Venezuela/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/Venezuela_index.htmlPantalla.png"></div></a>
+        <div class="about-content">
+            <h3>Front-end <span>Developer</span></h3>
+            <p>Mi compromiso con la excelencia en el desarrollo web se 
+                refleja en la manera en que afronto cada proyecto: con determinación, 
+                precisión y un enfoque centrado en la calidad y la eficiencia. 
+                Cada desafío es una oportunidad para aprender, crecer y superar los 
+                límites de lo que puedo lograr como desarrollador frontend.
 
-			<a href="https://larezdeivys.github.io/formulario/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/formulario_index.html.png"></div></a>
+                Participar en el mundo del desarrollo web me ha permitido no 
+                solo expandir mis habilidades técnicas, sino también desarrollar 
+                mi capacidad para trabajar en equipo, comunicarme de manera efectiva 
+                y gestionar proyectos de manera eficiente. Estoy convencido de que 
+                el frontend es el lugar donde mi pasión y mi talento se unen para 
+                crear experiencias digitales impactantes y memorables.
+                
+            </p>
 
-			<a href="https://larezdeivys.github.io/ServiciosDeRefrigeracion/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/Deivys_Desktop_ServiciosDeRefrigeracion.png"></div></a>
+            <div class="btn-box btns">
+                <a href="https://wa.me/+584129828013?text=" target="_blank" class="btn btn2">contáctame<i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+    </section>
 
-			<a href="https://larezdeivys.github.io/ColorCa/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/Deivys_Desktop_ColorCa.png"></div></a>
+    <!-- seccion de habilidades -->
+    <section class="habilidades show-animate" id="habilidades">
+        <h2 class="heading title2">Mis <span>Habilidades</span></h2>
 
-			<a href="https://larezdeivys.github.io/Chicken/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/Chicken_index.png"></div></a>
+        <div class="habilidades-row">
+            <div class="habilidades-column">
+                <h3 class="title">Habilidades</h3>
 
-			<a href="https://larezdeivys.github.io/formulario-animado/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/formulario-animado_index.png"></div></a>
+                <div class="habilidades-box">
+                    <div class="habilidades-content">
+                        <!-- html5 -->
+                        <div class="progress">
+                            <h3>HTML5 <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- css3 -->
+                        <div class="progress">
+                            <h3>Css3 <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="progress">
+                            <h3>JavaScript <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Bootstrap -->
+                        <div class="progress">
+                            <h3>Bootstrap <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Jquery -->
+                        <div class="progress">
+                            <h3>Jquery <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- React -->
+                        <div class="progress">
+                            <h3>React <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- tailwing.css -->
+                        <div class="progress">
+                            <h3>tailwing.css <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- vue.js -->
+                        <div class="progress">
+                            <h3>Vue.js <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- vuetify -->
+                        <div class="progress">
+                            <h3>Vuetify <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Wordpress -->
+                        <div class="progress">
+                            <h3>Wordpress <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Wix -->
+                        <div class="progress">
+                            <h3>Wix <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- C++ -->
+                        <div class="progress">
+                            <h3>C++ <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Python -->
+                        <div class="progress">
+                            <h3>Python <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Mysql -->
+                        <div class="progress">
+                            <h3>Mysql <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Angular -->
+                        <div class="progress">
+                            <h3>Angular <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Next -->
+                        <div class="progress">
+                            <h3>Next <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Laravel -->
+                        <div class="progress">
+                            <h3>Laravel <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<a href="https://larezdeivys.github.io/Games.com/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/Games.com2.png"></div></a>
 
-			<a href="https://larezdeivys.github.io/decayed/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_decayed.png"></div></a>
+            <div class="habilidades-column">
+                <h3 class="title">Herramientas</h3>
 
-			<a href="https://larezdeivys.github.io/pagina/" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/PaginasWeb_pagina.png"></div></a>
+                <div class="habilidades-box">
+                    <div class="habilidades-content">
+                        <!-- Git -->
+                        <div class="progress">
+                            <h3>Git <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Github -->
+                        <div class="progress">
+                            <h3>Github <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Visual studio code -->
+                        <div class="progress">
+                            <h3>Visual Studio Code <span>99%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Sublime text -->
+                        <div class="progress">
+                            <h3>Sublime text <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Bing -->
+                        <div class="progress">
+                            <h3>Bing <span>99%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Google -->
+                        <div class="progress">
+                            <h3>Google <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Mozilla firefox -->
+                        <div class="progress">
+                            <h3>Mozilla Firefox <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- ChatGPT 4 -->
+                        <div class="progress">
+                            <h3>ChatGPT 4 <span>99%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <!-- Copilot -->
+                        <div class="progress">
+                            <h3>Copilot <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<a href="" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/carrito_de_compras.png"></div></a>
+    <!-- seccion del portafolio -->
+    <section class="portafolio" id="portafolio">
+        <h2 class="heading title2">Mí <span>Portafolio</span></h2>
+        <div class="portaContenedor">
 
-			<a href="https://larezdeivys20.wixsite.com/my-site" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/larezdeivys20.wixsite.com_my-site.png"></div></a>
-		</div>
-	</div>
-<!--Seccion de participaciones-->
+            <div class="contenedor">
+                <h3 class="titulo">AGENCIA START</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                    <img src="./img/jquery1.png" alt="">
+                    <img src="./img/bootstrap.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/agency/" target="_blank"><img src="./img/PaginasWeb_Agency.png" alt="" class="img"></a>
+            </div>
 
-	<div class="portafolioSeccion">
-		<h2 class="wowload"><span lang="en">Participation in: | </span>Participacion en:</h2>
-		<div class="portafolioGrip">
-			<a href="https://cemam.nandroidseo.com/" target="_blank" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/cemam.png"></div></a>
-			
-			<a href="https://atlasconsulting.hu/" target="_blank" class="wowload"><div class="div_img_trajos"><img class="img_trabajo" src="img/atlas.png"></div></a>
-		</div>
-	</div>
+            <div class="contenedor">
+                <h3 class="titulo">RESTAURANTE ITALIANO</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/Restaurante-Italiano/" target="_blank"><img src="./img/PaginasWeb_Pantalla_restaurante_html_index.html.png" alt="" class="img"></a>
+            </div>
 
-<!-- ---------------------------------- -->
-	<div class="tecno">
-		<h4 class="h4">Pagina Web</h4>
-		<img class="tec-img" src="img/formulario-animado_index.png" alt="">
-		<div class="flex">
-			<img src="img/html5.png" class="tec">
-			<img src="img/html5.png" class="tec">
-			<img src="img/html5.png" class="tec">
-		</div>
-	
-			<a href="#" title="" class="btn" target="_black">Visitar Pagina</a>
-		
-		<a href="#" class="btn-cambiar siguiente">&#10095;</a>
-		<a href="#" class="btn-cambiar atras">&#10094;</a>
-		<div class="close-tecno">X</div>
-	</div>
-</section>
-<!-- --------------------------------- -->
-<!-- SECCION PARA LAS HABILIDADES -->
-<section class="habilidades" id="habilidades">
-  	<div class="habilidad">
-  		<div class="habi">
-		<h2 class="wowload"><span lang="en">Knowledge | </span>Conocimientos</h2>
-		<div class="conocimientos">
-			<div>
-				<img src="img/html5.png" class="wowload">
-				<h3>HTMIL 5</h3>
-			</div>
-			<div>
-				<img src="img/css.png" class="wowload">
-				<h3>CSS 3</h3>
-			</div>
-			<div>
-				<img src="img/javascript2.png" class="wowload">
-				<h3>Javascript</h3>
-			</div>
-			<div>
-				<img src="img/jquery1.png" class="wowload">
-				<h3>Jquery</h3>
-			</div>
-			<div>
-				<img src="img/bootstrap.png" class="wowload">
-				<h3>Bootstrap 5</h3>
-			</div>
-			<div>
-				<img src="img/react4.1.png" class="wowload">
-				<h3>React</h3>
-			</div>
-			<div>
-				<img src="img/wordpress1.png" class="wowload">
-				<h3>Wordpress</h3>
-			</div>
-			<div>
-				<img src="img/vuejs.png" class="wowload">
-				<h3>Vue JS</h3>
-			</div>
-		</div></div>
+            <div class="contenedor">
+                <h3 class="titulo">APP. CALCULADORA BASICA</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/Calculadora-basica/" target="_blank"><img src="./img/Calculadora-basica_.png" alt="" class="img"></a>
+            </div>
 
-		<div class="habi">
-		<h2 class="wowload"><span lang="en">Dev tools | </span>Herramientas</h2>
-		<div class="herramientas">
-			<div class="img">
-				<img src="img/google2.png" class="wowload">
-				<h3>Google</h3>
-			</div>
-			<div class="img">
-				<img src="img/mozilla3.png" class="wowload">
-				<h3>Mozila Firefox</h3>
-			</div>
-			<div class="img">
-				<img src="img/visual2.png" class="wowload">
-				<h3>Visual Studio</h3>
-			</div>
-			<div class="img">
-				<img src="img/sublime-text.png" class="wowload">
-				<h3>Sublime Text</h3>
-			</div>
-			<div class="img">
-				<img src="img/gt2.png" class="wowload">
-				<h3>GIT</h3>
-			</div>
-			<div class="img">
-				<img src="img/github2.png" class="wowload">
-				<h3>Github</h3>
-			</div>
-			<div class="img">
-				<img src="img/bing3.png" class="wowload">
-				<h3>Bing IA</h3>
-			</div>
-		</div></div>
-	</div>
-</section>
-<!-- SECCION SOBRE MI -->
-<section class="sobreMi" id="sobreMi">
-		<h2 class="wowload"><span lang="en">About me | </span>Sobre mí</h2>
-	<div class="sobreMiFlex">
-		<div class="sobreMi-info">
-			<!-- <p class="wowload" lang="es">Mi nombre es Deivys Roberto Lárez Rivas, soy estudiante de la UDO Universidad de Oriente núcleo Sucre en Venezuela.  Donde cursó la carrera Licenciatura en Informática, inclinándome por la rama del Desarrollo web enfocado principalmente como Frontend Developer.</p></br> -->
-			<!-- <p class="wowload" lang="en">My name is Deivys Larez, I am a student at the UDO Universidad de Oriente núcleo Sucre in Venezuela. Where he studied the career Bachelor of Computer Science, leaning towards the branch of Web Development focused mainly as frontend Developer.</p></br> -->
-			<!-- <p class="wowload" lang="es">Soy muy competente, responsable y atento con las cosas que han de gustar como es el caso del Desarrollo Web, como persona siempre estoy alegre, soy colaborador, optimista, proactivo, me gusta enfrentarme a nuevos retos, me gusta el trabajo en equipo, aporto ideas cuando se necesita de mi opinión y a la ves soy muy bueno para escuchar al resto del equipo, soy amante de la buena comida, el buen cine y mi tiempo libre lo aprovecho para compartir en familia, para hacer ejercicios, para estudiar nuevas tecnologías y soy amante cien por ciento a los deportes de resistencia fisica en especial el ciclismo y el trote.</p> -->
-			<!-- <p class="wowload" lang="en">I am very competent, responsible and attentive to the things that have to like how is the case of web development, as a person I am always happy, I am collaborative, optimistic, I like to face new challenges, I like teamwork, I contribute ideas when my opinion is needed and at the same time I am good at listening to the rest of the team, I am a lover of good food, good cinema and I take advantage of my free time to share with my family, to exercise, to study new technologies and I am one hundred percent a lover of physical endurance sports, especially cycling and jogging.</p> -->
-			<p class="wowload" lang="es">Soy un estudiante apasionado en la Universidad de Oriente, Núcleo Sucre en Venezuela, donde me especializo en Desarrollo Web con un enfoque particular en el Desarrollo Frontend. Combino mi destreza técnica con mi actitud positiva y entusiasta para afrontar desafíos.</p></br>
-			<p class="wowload" lang="es">Como colaborador soy super comprometido, tengo buenas habilidades para trabajar en equipo, aportando ideas innovadoras y demostrando capacidad destacada para escuchar y apoyar a mis compañeros. Además de estar dedicado al desarrollo web, soy aficionado a la buena comida, el buen cine y mi tiempo de calidad para mi familia. Fuera del ámbito laboral, estoy muy activo y comprometido con el ejercicio, el estudio de nuevas tecnologías y me apasiono por los deportes de resistencia física, en particular el ciclismo y el jogging. Este conjunto de habilidades y pasiones me hacen un profesional integral con una mentalidad colaborativa que impulsa la innovación y el éxito para equipos de desarrollo web.</p>
-		</div>
-		<div class="social">
-			<a href="https://github.com/larezdeivys" title="Github" target="_black"><img src="img/g4.png" class="wowload"></a>
-			<a href="https://www.linkedin.com/in/deivys-larez-20dei/" title="Linkedin" target="_black"><img src="img/LINKEN.png" class="wowload"></a>
-			<a href="https://wa.me/+584129828013?text=Hola%20Deivys%20buen%20día,%20¿podemos%20hablar?" title="Whatsapp" target="_blank"><img src="img/dlf-whatsapp.png" class="wowload"></a>
-		</div>
-	</div>
-</section>
-<footer>
-	<p>DEIVYS LAREZ FRONTEND DEVELOPER</p>
-</footer>
-<script src="javascript/portafolio.js"></script>
-<script src="javascript/formulario.js"></script>
-    <!-- jQuery-2.2.4 js -->
-    <script src="javascript/jquery/jquery-2.2.4.min.js"></script>
-    <script src="javascript/jquery/plugins.js"></script>
+            <div class="contenedor">
+                <h3 class="titulo">INSCRIBIR CURSO</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/formulario/" target="_blank"><img src="./img/formulario_index.html.png" alt="" class="img"></a>
+            </div>
 
-    <!-- Active js -->
-    <script src="javascript/active.js"></script>
+            <div class="contenedor">
+                <h3 class="titulo">COLRCLIN APP</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/ColorCa/" target="_blank"><img src="./img/Deivys_Desktop_ColorCa.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">CHICKEN-FUN</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/Chicken/" target="_blank"><img src="./img/Chicken_index.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">FORMULARIO ANIMADO</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/formulario-animado/" target="_blank"><img src="./img/formulario-animado_index.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">TECHNOLOGY</h3>
+                <div class="tecnologias">
+                    <img src="./img/html5.png" alt="">
+                    <img src="./img/css.png" alt="">
+                    <img src="./img/javascript2.png" alt="">
+                    <img src="./img/jquery1.png" alt="">
+                </div>
+                <a href="https://larezdeivys.github.io/pagina/" target="_blank"><img src="./img/PaginasWeb_pagina.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">CX CAPACIDAD DE NUTRICION</h3>
+                <div class="tecnologias">
+                    <img src="./img/wix.png" alt="">
+                </div>
+                <a href="https://larezdeivys20.wixsite.com/my-site" target="_blank"><img src="./img/larezdeivys20.wixsite.com_my-site.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">GAMING. TUS JUEGOS FAVORITOS</h3>
+                <div class="tecnologias">
+                    <img src="./img/laravel.png" alt="">
+                    <img src="./img/next.png" alt="">
+                </div>
+                <a href="https://juegos.developmenttech.net/" target="_blank"><img src="./img/juegos.developmenttech.net_.png" alt="" class="img"></a>
+            </div>
+
+        </div>
+            
+        <h4>Proyectos en los<span> que he participado:</span></h4>
+        <div class="portaContenedor">
+
+            <div class="contenedor">
+                <h3 class="titulo">EXCADRILL INTERNACIONAL</h3>
+                <div class="tecnologias">
+                    <img src="./img/react4.1.png" alt="">
+                    <img src="./img/next.png" alt="">
+                </div>
+                <a href="https://excadril-netx.vercel.app/" target="_blank"><img src="./img/excadril-netx.vercel.app_.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">DEVELOPMENTTECH</h3>
+                <div class="tecnologias">
+                    <img src="./img/wordpress1.png" alt="">
+                </div>
+                <a href="https://chat.developmenttech.net/" target="_blank"><img src="./img/chat.developmenttech.net_.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">CEMAM. CLINICA AEROMEDICA</h3>
+                <div class="tecnologias">
+                    <img src="./img/wordpress1.png" alt="">
+                </div>
+                <a href="https://cemam.nandroidseo.com/" target="_blank"><img src="./img/cemam.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">ATLAS CONSULTING</h3>
+                <div class="tecnologias">
+                    <img src="./img/wordpress1.png" alt="">
+                </div>
+                <a href="https://atlasconsulting.hu/" target="_blank"><img src="./img/atlasconsulting.hu_.png" alt="" class="img"></a>
+            </div>
+
+            <div class="contenedor">
+                <h3 class="titulo">ACADEMIA DE FINANZAS</h3>
+                <div class="tecnologias">
+                    <img src="./img/wordpress1.png" alt="">
+                </div>
+                <a href="https://scarvajaleconomia.com/" target="_blank"><img src="./img/scarvajaleconomia.com.png" alt="" class="img"></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Seccion de educacion -->
+    <section class="educacion" id="educacion">
+        <h2 class="heading">Sobre mí <span>educación</span></h2>
+
+        <div class="educacion-row">
+            <div class="educacion-column">
+                <h3 class="title">Educación</h3>
+
+                <div class="educacion-box">
+                    
+                    <div class="educacion-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2014 - 2019</div>
+                            <h3>Bachillerato - U.E.T.D Unidad Educativa de Talentos Deportivos "Francisco Morochito Rodríguez" mariguitar</h3>
+                            <p>En la Unidad Educativa de Talentos Deportivos, mi paso fue 
+                                realmente excepcional. Logré destacarme tanto en mis estudios 
+                                como en el ámbito deportivo, siendo reconocido como uno de
+                                los mejores estudiantes que haya pasado por esa institución. 
+                                Mis notas siempre fueron altas, lo que me llevó a recibir el honor 
+                                de la mejor trayectoria estudiantil.
+
+                                En cuanto al deporte, fui más allá de lo que alguna vez imaginé. 
+                                Me desarrollé como un atleta de alto rendimiento en disciplinas tan 
+                                exigentes como el boxeo, karate y atletismo, destacando tanto en velocidad 
+                                como en resistencia. Sin embargo, fue en el beisbol donde realmente brillé, 
+                                obteniendo numerosas medallas y reconocimientos, representando con orgullo a 
+                                mi institución y municipio en cada competencia.
+                                
+                                Como pelotero, fui considerado un gran prospecto, llegando a representar a mi 
+                                estado en selecciones de copa de oro durante varios años. Incluso tuve la oportunidad 
+                                de ser convocado en dos ocasiones para representar a mi país, una experiencia que me 
+                                acercó al máximo nivel competitivo.
+                                
+                                A pesar de todos estos logros, lo que más me enorgullece es haber mantenido siempre 
+                                una actitud humilde y una buena personalidad. Para mí era importante no solo destacar 
+                                en el campo, sino también ser un buen ejemplo para quienes me rodeaban. Creo firmemente 
+                                que la humildad y la perseverancia son valores fundamentales que me han llevado a 
+                                superar cada desafío que se ha presentado en mi camino.
+                                
+                                Mi tiempo en la Unidad Educativa de Talentos Deportivos ha sido una 
+                                experiencia enriquecedora que ha dejado una marca imborrable en mi vida. 
+                                Cada logro, cada medalla, cada reconocimiento, son testimonios de mi dedicación 
+                                y amor por el deporte y el estudio. Y si hay algo que este viaje me ha enseñado, 
+                                es que con esfuerzo, pasión y determinación, los sueños más grandes pueden 
+                                hacerse realidad. ¡Mi legado en la institución perdurará en los 
+                                corazones de quienes compartieron conmigo esta aventura hacia la grandeza!</p>
+                        </div>
+                    </div>
+
+                    <div class="educacion-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - Actialidad</div>
+                            <h3>Licenciatura en Informática - UDO Universidad de Oriente Núcleo de Sucre</h3>
+                            <p>En la universidad, desde que ingresé en el primer trimestre de 
+                                2021 hasta el día de hoy, he tenido el privilegio de cursar 
+                                la carrera de Licenciatura en Informática en la institución 
+                                académica más destacada del oriente de mi país. Esta experiencia 
+                                ha sido verdaderamente transformadora para mí, especialmente al enfocarme 
+                                en el apasionante mundo del desarrollo web.
+
+                                Formar parte de esta prestigiosa universidad ha sido un honor, ya que 
+                                me ha proporcionado las herramientas necesarias para crecer tanto a nivel 
+                                personal como profesional. Los profesores, sin duda alguna, son verdaderos 
+                                maestros en su campo, y gracias a su dedicación, compromiso y sabiduría, 
+                                he adquirido un conocimiento invaluable que ha sentado las bases de mi 
+                                desarrollo como informático.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="educacion-row">
+            <div class="educacion-column">
+                <h3 class="title">Experiencia</h3>
+
+                <div class="educacion-box">
+                    
+                    <div class="educacion-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2024</div>
+                            <h3>WPalexis - Desarrollador Frontend</h3>
+                            <p>En mi experiencia como desarrollador frontend en WPalexis, 
+                            he tenido la oportunidad de sumergirme en un 
+                            mundo de creatividad y tecnología que ha sido verdaderamente enriquecedor. 
+                            Participar en numerosos proyectos me ha permitido crecer profesionalmente, 
+                            enfrentando desafíos y superándome en cada tarea que he emprendido.
+
+                                El desarrollo de páginas empresariales, la creación de sitios web innovadores, 
+                                la implementación de transacciones a nivel de página, la carga de productos en 
+                                plataformas de comercio electrónico, son solo algunas de las muchas tareas en 
+                                las que he podido destacarme. Cada proyecto, cada línea de código escrita, 
+                                ha sido una oportunidad para demostrar mi destreza y eficiencia en el 
+                                desarrollo frontend.
+                                </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 Deivys Larez | Desarrollador Front-end</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

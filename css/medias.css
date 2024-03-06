@@ -117,6 +117,10 @@
     .home-content p{
         text-align: center;
     }
+    .home-content .text-animate h3{
+        animation: none;
+        -webkit-animation: none;
+}
     .btn-box{
         display: block;
         width: 100%;

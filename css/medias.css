@@ -117,10 +117,49 @@
     .home-content p{
         text-align: center;
     }
+
     .home-content .text-animate h3{
         animation: none;
         -webkit-animation: none;
+    }
+    @keyframes homeBgText{
+        0%,
+        10%, 
+        100%{
+            display: nones;
+        }
+    
+        65%, 
+        85%{
+            display: none;
+        }
+    }
+    @keyframes homeCursorText{
+        0%,
+        10%, 
+        100%{
+            display: none;
+        }
+    
+        65%, 
+        78%,
+        85%{
+            display: none;
+        }
+    
+        75%,
+        81%{
+            display: none;
+        }
+    }
+    
+    .home-content .text-animate h3::before{
+        animation: none;
+        -webkit-animation: none;
 }
+
+
+
     .btn-box{
         display: block;
         width: 100%;

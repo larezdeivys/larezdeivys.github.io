@@ -5,9 +5,6 @@
     .portafolio .portaContenedor{
         grid-template-columns: 1fr 1fr;
     }
-    /* .navbar a{
-        font-size: 1rem;
-    } */
 
 }
 
@@ -71,6 +68,7 @@
         margin-top: 2rem;
         margin-left: 5%;
         margin-bottom: 2rem;
+        font-size: 1rem;
         transform: translateX(-20rem);
         -webkit-transform: translateX(-20rem);
         -moz-transform: translateX(-20rem);

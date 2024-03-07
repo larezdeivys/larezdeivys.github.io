@@ -5,9 +5,9 @@
     .portafolio .portaContenedor{
         grid-template-columns: 1fr 1fr;
     }
-    .navbar a{
-        font-size: .7rem;
-    }
+    /* .navbar a{
+        font-size: 1rem;
+    } */
 
 }
 
@@ -118,48 +118,6 @@
         text-align: center;
     }
 
-    /* .home-content .text-animate h3{
-        animation: none;
-        -webkit-animation: none;
-    } */
-    /* @keyframes homeBgText{
-        0%,
-        10%, 
-        100%{
-            display: none;
-        }
-    
-        65%, 
-        85%{
-            display: none;
-        }
-    }
-    @keyframes homeCursorText{
-        0%,
-        10%, 
-        100%{
-            display: none;
-        }
-    
-        65%, 
-        78%,
-        85%{
-            display: none;
-        }
-    
-        75%,
-        81%{
-            display: none;
-        }
-    } */
-    
-    /* .home-content .text-animate h3::before{
-        animation: none;
-        -webkit-animation: none;
-} */
-
-
-
     .btn-box{
         display: block;
         width: 100%;
@@ -221,7 +179,6 @@
     .home-sci{
         display: flex;
         justify-content: center;
-        /* width: 15rem; */
     }
     .home-sci a{
         margin: 0 .2rem;

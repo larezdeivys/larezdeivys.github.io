@@ -126,7 +126,7 @@
         0%,
         10%, 
         100%{
-            display: nones;
+            display: none;
         }
     
         65%, 
@@ -167,6 +167,13 @@
     }
     .btn-box .btn{
         width: 100%;
+    }
+    .about-img img{
+        width: 75%;
+    }
+    .about-img .circle-spin{
+        width: 80%;
+        height: 80%;
     }
     .habilidades-box .habilidades-content{
         padding: .5rem .6rem;

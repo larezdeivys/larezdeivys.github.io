@@ -118,11 +118,11 @@
         text-align: center;
     }
 
-    .home-content .text-animate h3{
+    /* .home-content .text-animate h3{
         animation: none;
         -webkit-animation: none;
-    }
-    @keyframes homeBgText{
+    } */
+    /* @keyframes homeBgText{
         0%,
         10%, 
         100%{
@@ -151,12 +151,12 @@
         81%{
             display: none;
         }
-    }
+    } */
     
-    .home-content .text-animate h3::before{
+    /* .home-content .text-animate h3::before{
         animation: none;
         -webkit-animation: none;
-}
+} */
 
 
 
@@ -197,6 +197,9 @@
 }
 
 @media (max-width: 400px){
+    section{
+        padding: 5rem 5%;
+    }
     .header{
         max-width: 100%;
     }
@@ -209,18 +212,34 @@
         font-weight: 600;
     }
     .home-content h1{
-        font-size: 2.1rem;
+        font-size: 2.5rem;
         margin-top: -5rem;
     }
     .heading{
         font-size: 2.5rem;
     }
     .home-sci{
-        width: 14rem;
+        display: flex;
+        justify-content: center;
+        /* width: 15rem; */
+    }
+    .home-sci a{
+        margin: 0 .2rem;
     }
     .habilidades-column .title{
         font-size: 1.5rem;
         padding-top: 1rem;
+    }
+    .about-img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .about-img img{
+        width: 75%;
+    }
+    .about-img .circle-spin{
+        width: 80%;
+        height: 80%;
     }
     .educacion-content .content h3{
         font-size: 1.2rem;
@@ -238,6 +257,8 @@
     }
 
 }
+
+
 
 @media (max-width: 300px){
     .header{

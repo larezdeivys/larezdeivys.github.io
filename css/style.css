@@ -551,10 +551,10 @@ span{
     width: 60%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(13) .bar span{
-    width: 60%;
+    width: 50%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(14) .bar span{
-    width: 70%;
+    width: 50%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(15) .bar span{
     width: 70%;

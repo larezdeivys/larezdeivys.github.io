@@ -92,7 +92,6 @@
 .contenedor .titulo{
     font-size: 1.2rem;
 }
-
 }
 
 @media (max-width: 500px){
@@ -195,6 +194,9 @@
     .about-img .circle-spin{
         width: 80%;
         height: 80%;
+    }
+    .portaContenedor .contenedor{
+        width: 100%;
     }
     .educacion-content .content h3{
         font-size: 1.2rem;

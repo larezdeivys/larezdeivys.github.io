@@ -551,20 +551,20 @@ span{
     width: 60%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(13) .bar span{
-    width: 50%;
+    width: 30%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(14) .bar span{
-    width: 50%;
+    width: 30%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(15) .bar span{
-    width: 70%;
+    width: 50%;
 }
-.habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(16) .bar span{
+/* .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(16) .bar span{
     width: 50%;
 }
 .habilidades-column:nth-child(1) .habilidades-content .progress:nth-child(17) .bar span{
     width: 50%;
-}
+} */
 
 .habilidades-column:nth-child(2) .habilidades-content .progress:nth-child(1) .bar span{
     width: 90%;
